@@ -23,10 +23,5 @@ describe("Bitmap Module", () => {
     expect(bitmap.pixels).toBe(16);
     expect(bitmap.width).toBe(1237);
     expect(bitmap.offset).toBe(54);
-
-    // expect(bitmap.bitsPerPixel).toBe(8);
-
-    // expect(bitmap.colorBuffer).toBeDefined();
-    // expect(bitmap.pixelBuffer).toBeDefined();
   });
 });
