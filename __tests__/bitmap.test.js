@@ -6,7 +6,7 @@ const fsReadFile = util.promisify(fs.readFile);
 
 const Bitmap = require("../lib/bitmap");
 
-const bmpPath = `${__dirname}/../assets/michele.bmp`;
+// const bmpPath = `${__dirname}/../assets/pretty.bmp`;
 
 describe("Bitmap Module", () => {
   it("can parse a file!", async () => {
