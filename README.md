@@ -1,2 +1,2 @@
 # Class-05
-Bitmap Transformer
+Bitmap-Transformer
