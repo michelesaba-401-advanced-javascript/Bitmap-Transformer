@@ -1,7 +1,6 @@
 "use strict";
 const fs = require("fs");
 const Bitmap = require("./lib/bitmap.js");
-// const transform = require("./lib/transform.js");
 
 function transformWithCallbacks() {
   fs.readFile(file, (err, buffer) => {
