@@ -6,7 +6,7 @@ const fsReadFile = util.promisify(fs.readFile);
 
 const Bitmap = require("../lib/bitmap");
 
-// const bmpPath = `${__dirname}/../assets/pretty.bmp`;
+const bmpPath = `${__dirname}/../assets/pretty.bmp`;
 
 describe("Bitmap Module", () => {
   it("can parse a file!", async () => {
@@ -19,9 +19,9 @@ describe("Bitmap Module", () => {
 
     expect(bitmap.buffer).toBe(buffer);
     expect(bitmap.type).toBe("BM");
-    expect(bitmap.size).toBe(2780604);
-    expect(bitmap.pixels).toBe(16);
-    expect(bitmap.width).toBe(1237);
-    expect(bitmap.offset).toBe(54);
+    expect(bitmap.size).toBe(3151080);
+    expect(bitmap.pixels).toBe(8);
+    expect(bitmap.width).toBe(2100);
+    expect(bitmap.offset).toBe(1078);
   });
 });
